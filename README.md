@@ -18,4 +18,5 @@ poetry run task --tool dagster --file_in original.csv --file_out norm.csv
 Для этого в проекте файлы original.csv и norm.csv. продублированны.
 Одни в корневой папке. Их копии в папке data
 
+для poetry run task необходимо будет менять пути в папке cli/cli.py default_path_out и default_path_in 
 
